@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(../fontes/idroid.otf) format(opentype);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #abe2ab;
+    text-align: justify;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(180deg, #72af72, #005500);
+    padding: 7px;
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.712);
+}
+
+header>h1 {
+    font-family: 'Arial narrow', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.712);
+}
+
+nav {
+    background-color: #005500;
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0px;
+    margin: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 3px 3px 3px #0000004f;
+}
+
+h1, h2 {
+    font-family: 'idroid', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 61, 0);
+}
+
+h2 {
+    background-image: linear-gradient(90deg, #00800054, white);
+    font-size: 1.25em;
+    padding: 0px 10px;
+}
+
+p {
+    text-indent: 30px;
+}
+
+aside {
+    background-color: #abe2ab79;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.artigo {
+    padding: 10px 15px;
+}
+
+article h3 {
+    background-color: #009e00;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+article a::after {
+    content: "🔗";
+}
+article a {
+    color: black;
+    text-decoration: none;
+    background-color: #57b35780;
+}
+
+aside>p {
+    margin: 10px 10px; 
+}
+
+ul {
+    column-count: 2;
+}
+
+li::marker {
+    content: "🗸 ";
+}
+
+.video {
+    background-color: #006400;
+}
+
+footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.75em;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
